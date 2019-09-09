@@ -3,7 +3,7 @@
 [![CI Status](https://img.shields.io/travis/sheng/RtSDK.svg?style=flat)](https://travis-ci.org/sheng/RtSDK)
 [![Version](https://img.shields.io/cocoapods/v/RtSDK.svg?style=flat)](https://cocoapods.org/pods/RtSDK)
 [![License](https://img.shields.io/cocoapods/l/RtSDK.svg?style=flat)](https://cocoapods.org/pods/RtSDK)
-[![Platform](https://img.shields.io/cocoapods/p/RtSDK.svg?style=flat)](https://cocoapods.org/pods/RtSDK)
+[![Platform](https://img.shields.io/cocoapods/p/RtSDK)](https://cocoapods.org/pods/RtSDK)
 
 ## Example
 
