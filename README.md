@@ -1,6 +1,6 @@
 # RtSDK
 
-[![CI Status](https://img.shields.io/travis/sheng/RtSDK.svg?style=flat)](https://travis-ci.org/sheng/RtSDK)
+[![Support](https://img.shields.io/node/v/support-iOS8.0-blue.svg?label=Support)](https://travis-ci.org/sheng/RtSDK)
 [![Version](https://img.shields.io/cocoapods/v/RtSDK.svg?style=flat)](https://cocoapods.org/pods/RtSDK)
 [![License](https://img.shields.io/cocoapods/l/RtSDK.svg?style=flat)](https://cocoapods.org/pods/RtSDK)
 [![Platform](https://img.shields.io/cocoapods/p/RtSDK)](https://cocoapods.org/pods/RtSDK)
