@@ -8,14 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RtSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RtSDK.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.1.1'
+  s.summary          = 'net263 RtSDK.'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -30,7 +24,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RtSDK/Classes/**/*'
+  s.source_files = 'RtSDK/**/*'
   
   # s.resource_bundles = {
   #   'RtSDK' => ['RtSDK/Assets/*.png']
