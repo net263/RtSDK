@@ -8,18 +8,18 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RtSDK'
-  s.version          = '0.1.1'
+  s.version          = '3.7.7'
   s.summary          = 'net263 RtSDK.'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/sheng/RtSDK'
+  s.homepage         = 'https://github.com/net263/RtSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sheng' => '277715243@qq.com' }
-  s.source           = { :git => 'https://github.com/sheng/RtSDK.git', :tag => s.version.to_s }
+  s.author           = { 'net263' => '277715243@qq.com' }
+  s.source           = { :git => 'https://github.com/net263/RtSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
