@@ -1,6 +1,0 @@
-framework module GSCommonKit {
-  umbrella header "GSCommonKit.h"
-
-  export *
-  module * { export * }
-}

@@ -1,9 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GSBaseKit" "${PODS_ROOT}/RtSDK"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GSBaseKit/Libs" "${PODS_ROOT}/GSBaseKit/Libs/ffmpeg"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"avcodec" -l"avformat" -l"avutil" -l"c++" -l"iconv" -l"icucore" -l"libfaad" -l"swresample" -l"swscale" -l"x264" -l"z" -framework "AudioToolbox" -framework "CoreImage" -framework "GLKit" -framework "GPUImage" -framework "GSCommonKit" -framework "GSDocKit" -framework "OpenAL" -framework "RtSDK" -framework "UIKit" -framework "VideoToolbox"
-PODS_BUILD_DIR = ${BUILD_DIR}
-PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
-PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
-PODS_ROOT = ${SRCROOT}/Pods
-USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

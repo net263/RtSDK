@@ -1,6 +1,0 @@
-framework module RtSDK {
-  umbrella header "RtSDK.h"
-
-  export *
-  module * { export * }
-}
