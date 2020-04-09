@@ -4,7 +4,11 @@
 target 'RtSDKDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   # use_frameworks!
-pod 'RtSDK'
+pod 'RtSDK', '~> 1.0.2'
+pod 'IQKeyboardManager'
+pod 'Reachability'
+pod 'MBProgressHUD','~> 1.1.0'
+pod 'THProgressView'
   # Pods for RtSDKDemo
 
 end

@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  RtSDKDemo
+
+  Created by gensee on 2020/4/9.
+  Copyright © 2020年 CaicaiNo. All rights reserved.
+*/
+"BroadcastConnecting" = "正在连接...";
+"BroadcastConnectionError" = "直播连接失败, 请重试";
+"OK" = "知道了";
+"SendingQuestionFailed" = "问题发送失败";
+"QuestionContentEmpty" = "问题内容不能为空";
+"SingleVideo" = "单路视频";
+"MultiVideo" = "多路视频";
+"PublishDoc" = "文档发布(发布端)";
+"Vies" = "抢答";
+"Praise" = "点赞/勋章";
+"Diagnosis" = "日志收集";
+"MoreInfo" = "更多信息";
+"Doc" = "文档";
+"Chat" = "聊天";
+"Qa" = "问答";
+"Investigation" = "问卷调查";
+"WrongServiceType" = "服务类型填写错误";
+"WrongConnectInfo" = "参数不正确, 请重试";
+"Reconnect" = "重连中...";
+"Me" = "我";
+"System" = "系统消息";
+"Title" = "欢迎使用RtSDK";
+"Lottery" = "抽奖";
+"CheckIn" = "点名";
+"CheckInTip" = "签到成功";
+"LotteryNames" = "中奖名单";
+"InvestigationTheme" = "问卷调查主题";
+"Multi" = "多选题";
+"Single" = "单选题";
+"Submit" = "提交";
+"SubmitSuccess" = "提交成功";
+"SubmitFailed" = "提交失败!";
+"LocalPlayer" = "发布视频(发布端)";

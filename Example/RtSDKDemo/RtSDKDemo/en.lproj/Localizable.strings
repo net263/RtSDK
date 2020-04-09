@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  RtSDKDemo
+
+  Created by gensee on 2020/4/9.
+  Copyright © 2020年 CaicaiNo. All rights reserved.
+*/
+"BroadcastConnecting" = "Connecting...";
+"BroadcastConnectionError" = "Connection Error, please try again!";
+"OK" = "OK";
+"SendingQuestionFailed" = "Failed to send question, please tyr again!";
+"QuestionContentEmpty" = "Question is empty!";
+"SingleVideo" = "Single Video";
+"MultiVideo" = "Multi Video";
+"PublishDoc" = "PublishDoc";
+"Doc" = "Document";
+"Vies" = "Vies";
+"Praise" = "Praise";
+"Diagnosis" = "Diagnosis";
+"MoreInfo" = "MoreInfo";
+"Chat" = "Text Chatting";
+"Qa" = "Question&Answer";
+"Investigation" = "Investigation";
+"WrongServiceType" = "Wrong Service Type!";
+"WrongConnectInfo" = "You filled wrong params, please try again!";
+"Reconnect" = "Reconnecting...";
+"Me" = "Me";
+"System" = "System";
+"Title" = "Welcome to Try RtSDK";
+"Lottery" = "Lottery";
+"CheckIn" = "Check in";
+"CheckInTip" = "Check in Success";
+"LotteryNames" = "List";
+"InvestigationTheme" = "Investigation Themes";
+"Multi" = "Multi Choice";
+"Single" = "Single Choice";
+"Submit" = "Submit";
+"SubmitSuccess" = "Success!";
+"SubmitFailed" = "Failed!";

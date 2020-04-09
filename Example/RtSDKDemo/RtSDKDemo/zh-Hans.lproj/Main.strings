@@ -1,0 +1,117 @@
+
+/* Class = "UIButton"; normalTitle = "抢答"; ObjectID = "05T-ZQ-7pF"; */
+"05T-ZQ-7pF.normalTitle" = "抢答";
+
+/* Class = "UIButton"; normalTitle = "删除全部标注"; ObjectID = "0R7-iY-aEU"; */
+"0R7-iY-aEU.normalTitle" = "删除全部标注";
+
+/* Class = "UIButton"; normalTitle = "勋章"; ObjectID = "3M8-9e-h7t"; */
+"3M8-9e-h7t.normalTitle" = "勋章";
+
+/* Class = "UITextField"; placeholder = "第三方验证K值"; ObjectID = "5xX-UG-Nx8"; */
+"5xX-UG-Nx8.placeholder" = "第三方验证K值";
+
+/* Class = "UIButton"; normalTitle = "关闭扬声器"; ObjectID = "8sO-7a-OMf"; */
+"8sO-7a-OMf.normalTitle" = "关闭扬声器";
+
+/* Class = "UILabel"; text = "请在直播端进行抽奖操作"; ObjectID = "A4o-QX-qDi"; */
+"A4o-QX-qDi.text" = "请在直播端进行抽奖操作";
+
+/* Class = "UIButton"; normalTitle = "签到"; ObjectID = "B39-WX-dSN"; */
+"B39-WX-dSN.normalTitle" = "签到";
+
+/* Class = "UIButton"; normalTitle = "取消订阅视频"; ObjectID = "E4J-Vs-ok3"; */
+"E4J-Vs-ok3.normalTitle" = "取消订阅视频";
+
+/* Class = "UILabel"; text = "直播视频区域"; ObjectID = "Epv-3S-gIU"; */
+"Epv-3S-gIU.text" = "直播视频区域";
+
+/* Class = "UILabel"; text = "摄像头区域(自己)"; ObjectID = "FCN-Sb-b4c"; */
+"FCN-Sb-b4c.text" = "摄像头区域(自己)";
+
+/* Class = "UITextField"; placeholder = "登录密码"; ObjectID = "FgS-kf-1dL"; */
+"FgS-kf-1dL.placeholder" = "登录密码";
+
+/* Class = "UITextField"; placeholder = "域名"; ObjectID = "GLn-du-nIY"; */
+"GLn-du-nIY.placeholder" = "域名";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "KhL-g0-WuE"; */
+"KhL-g0-WuE.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "收到点赞:"; ObjectID = "LG2-lU-XC1"; */
+"LG2-lU-XC1.text" = "收到点赞:";
+
+/* Class = "UILabel"; text = "勋章总数:"; ObjectID = "M9S-2v-GI6"; */
+"M9S-2v-GI6.text" = "勋章总数:";
+
+/* Class = "UITextField"; placeholder = "昵称"; ObjectID = "Org-KI-hgS"; */
+"Org-KI-hgS.placeholder" = "昵称";
+
+/* Class = "UIButton"; normalTitle = "点赞"; ObjectID = "Q2b-BD-9Eb"; */
+"Q2b-BD-9Eb.normalTitle" = "点赞";
+
+/* Class = "UITextField"; placeholder = "登录名"; ObjectID = "Qw4-JB-Y8w"; */
+"Qw4-JB-Y8w.placeholder" = "登录名";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "Rw3-Sk-FsO"; */
+"Rw3-Sk-FsO.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "用户列表(选择发送勋章)"; ObjectID = "T3G-jY-7fK"; */
+"T3G-jY-7fK.text" = "用户列表(选择发送勋章)";
+
+/* Class = "UILabel"; text = "文档区域"; ObjectID = "TUk-zc-t6W"; */
+"TUk-zc-t6W.text" = "文档区域";
+
+/* Class = "UILabel"; text = "或"; ObjectID = "Tbl-1x-20i"; */
+"Tbl-1x-20i.text" = "或";
+
+/* Class = "UITextField"; placeholder = "服务类型"; ObjectID = "bH9-dH-7y2"; */
+"bH9-dH-7y2.placeholder" = "服务类型";
+
+/* Class = "UIButton"; normalTitle = "显示排行榜"; ObjectID = "bv1-lW-lvr"; */
+"bv1-lW-lvr.normalTitle" = "显示排行榜";
+
+/* Class = "UILabel"; text = "摄像头区域"; ObjectID = "gc5-Ku-wpO"; */
+"gc5-Ku-wpO.text" = "摄像头区域";
+
+/* Class = "UILabel"; text = "请在直播端进行点名操作"; ObjectID = "i9O-Rd-93z"; */
+"i9O-Rd-93z.text" = "请在直播端进行点名操作";
+
+/* Class = "UITextField"; placeholder = "观看密码"; ObjectID = "jHa-Yb-Xpb"; */
+"jHa-Yb-Xpb.placeholder" = "观看密码";
+
+/* Class = "UIButton"; normalTitle = "发布文档"; ObjectID = "jKk-gS-giy"; */
+"jKk-gS-giy.normalTitle" = "发布文档";
+
+/* Class = "UITextField"; placeholder = "房间号"; ObjectID = "juU-bk-XTf"; */
+"juU-bk-XTf.placeholder" = "房间号";
+
+/* Class = "UIButton"; normalTitle = "打开摄像头"; ObjectID = "khM-5b-AP9"; */
+"khM-5b-AP9.normalTitle" = "打开摄像头";
+
+/* Class = "UIButton"; normalTitle = "打开麦克风"; ObjectID = "mQ8-eR-PhK"; */
+"mQ8-eR-PhK.normalTitle" = "打开麦克风";
+
+/* Class = "UIButton"; normalTitle = "直播视频(否)"; ObjectID = "p3R-wh-KWr"; */
+"p3R-wh-KWr.normalTitle" = "直播视频(否)";
+
+/* Class = "UIButton"; normalTitle = "订阅视频"; ObjectID = "pWI-ay-MBd"; */
+"pWI-ay-MBd.normalTitle" = "订阅视频";
+
+/* Class = "UITextField"; placeholder = "直播ID"; ObjectID = "qGp-59-gGk"; */
+"qGp-59-gGk.placeholder" = "直播ID";
+
+/* Class = "UILabel"; text = "收到勋章:"; ObjectID = "rie-us-8AR"; */
+"rie-us-8AR.text" = "收到勋章:";
+
+/* Class = "UIButton"; normalTitle = "发布白板"; ObjectID = "tgb-1H-Pgc"; */
+"tgb-1H-Pgc.normalTitle" = "发布白板";
+
+/* Class = "UIButton"; normalTitle = "美颜开启(YES)"; ObjectID = "wbb-Mj-Iqd"; */
+"wbb-Mj-Iqd.normalTitle" = "美颜开启(YES)";
+
+/* Class = "UIButton"; normalTitle = "发布"; ObjectID = "y05-ud-Aej"; */
+"y05-ud-Aej.normalTitle" = "发布";
+
+/* Class = "UIButton"; normalTitle = "打开扬声器"; ObjectID = "z2j-uq-sd9"; */
+"z2j-uq-sd9.normalTitle" = "打开扬声器";

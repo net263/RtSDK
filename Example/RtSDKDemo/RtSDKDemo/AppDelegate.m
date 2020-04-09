@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
+#import "GSRtEnterViewController.h"
+#import "GSBaseNavigationController.h"
+#import <GSCommonKit/GSCommonKit.h>
+#import <RtSDK/RtSDK.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +22,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // 日志文件定向
+    [[GSDiagnosisInfo shareInstance] redirectNSlogToDocumentFolder];
+    
+    [GSBroadcastManager sharedBroadcastManager].isBriefIntroduce = YES;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    GSRtEnterViewController *mainVC = [[GSRtEnterViewController alloc]init];
+    GSBaseNavigationController *navigation = [[GSBaseNavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = navigation;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

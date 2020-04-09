@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GSBroadcastJoinResult</key>
+	<dict>
+		<key>0</key>
+		<string>直播加入成功</string>
+		<key>1</key>
+		<string>未知错误</string>
+		<key>2</key>
+		<string>会议已上锁</string>
+		<key>3</key>
+		<string>组织者已经存在</string>
+		<key>4</key>
+		<string>会议成员人数已满</string>
+		<key>5</key>
+		<string>音频编码不匹配</string>
+		<key>6</key>
+		<string>加入会议超时</string>
+		<key>7</key>
+		<string>您的ip被封禁</string>
+		<key>8</key>
+		<string>会议尚未开始，稍后再尝试进入</string>
+	</dict>
+	<key>GSBroadcastLeaveReason</key>
+	<dict>
+		<key>0</key>
+		<string>自行退出房间</string>
+		<key>1</key>
+		<string>抱歉，您已被组织者踢出</string>
+		<key>2</key>
+		<string>会议时间已过，点击确定退出程序！</string>
+		<key>3</key>
+		<string>本次会议已结束,谢谢观看</string>
+		<key>4</key>
+		<string>抱歉，您的ip已被封禁</string>
+	</dict>
+	<key>GSBroadcastConnectResult</key>
+	<dict>
+		<key>0</key>
+		<string>直播初始化成功</string>
+		<key>1</key>
+		<string>网络错误</string>
+		<key>2</key>
+		<string>找不到对应的webcastID</string>
+		<key>3</key>
+		<string>webcastID 错误</string>
+		<key>4</key>
+		<string>登录信息错误</string>
+		<key>5</key>
+		<string>加会口令错误</string>
+		<key>6</key>
+		<string>其他错误</string>
+		<key>7</key>
+		<string>加会参数都正确，但是初始化失败</string>
+		<key>8</key>
+		<string>未知错误</string>
+		<key>9</key>
+		<string>第三方验证错误</string>
+		<key>10</key>
+		<string>不支持移动端</string>
+		<key>11</key>
+		<string>直播已过期</string>
+		<key>12</key>
+		<string>没有权限观看直播</string>
+	</dict>
+</dict>
+</plist>
