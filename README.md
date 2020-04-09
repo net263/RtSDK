@@ -1,9 +1,8 @@
 # RtSDK
 
-[![Support](https://img.shields.io/node/v/support-iOS8.0-blue.svg?label=Support)](https://travis-ci.org/sheng/RtSDK)
-[![Version](https://img.shields.io/cocoapods/v/RtSDK.svg?style=flat)](https://cocoapods.org/pods/RtSDK)
-[![License](https://img.shields.io/cocoapods/l/RtSDK.svg?style=flat)](https://cocoapods.org/pods/RtSDK)
-[![Platform](https://img.shields.io/cocoapods/p/RtSDK)](https://cocoapods.org/pods/RtSDK)
+![language](https://img.shields.io/badge/language-Object--C-brightgreen)
+![Version](https://img.shields.io/badge/Version-3.7.10-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-iOS-brightgreen)
 
 ## Example
 
@@ -11,6 +10,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+ - iOS 8.0 or higher
+ - ARC
+ - Xcode 8.0 or higher
+ 
 ## Installation
 
 RtSDK is available through [CocoaPods](https://cocoapods.org). To install
@@ -19,11 +22,12 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'RtSDK'
 ```
+## Usage
+
+RtSDK的使用场景较多，我们公开了一个文档进行介绍：
+
 
 ## Author
 
-sheng, 277715243@qq.com
+net263
 
-## License
-
-RtSDK is available under the MIT license. See the LICENSE file for more info.
