@@ -22,13 +22,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/net263/RtSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = 'RtSDK.frameworks'
+  s.vendored_frameworks = 'RtSDK.framework','GSCommonKit.framework','GPUImage.framework','GSDocKit.framework'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   # s.resource_bundles = {
   #   'RtSDK' => ['RtSDK/Assets/*.png']
   # }
-
+  s.vendored_libraries = 'Libs/*.a', 'Libs/ffmpeg/*.a'
+  s.static_framework = true
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'GLKit'
+  s.libraries = 'z', 'c++','iconv','icucore'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
