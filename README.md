@@ -13,6 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
  - iOS 8.0 or higher
  - ARC
  - Xcode 8.0 or higher
+ - Not support bitcode
  
 ## Installation
 
