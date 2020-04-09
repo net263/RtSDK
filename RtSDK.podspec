@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RtSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'net263 RtSDK.'
 
   s.description      = <<-DESC
@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'RtSDK.framework'
+  spec.vendored_libraries = 'libfdk-aac.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   # s.resource_bundles = {
   #   'RtSDK' => ['RtSDK/Assets/*.png']
   # }
-  s.vendored_libraries = 'Libs/*.a', 'Libs/ffmpeg/*.a'
   s.static_framework = true
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'GLKit'
