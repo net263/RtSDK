@@ -484,8 +484,6 @@ typedef NS_ENUM(NSInteger, GSFetchLoginInformationResult)
  */
 - (BOOL)inactivateMicrophone;
 
-// 检查麦克风是否静音
-- (BOOL)isMicrophoneMute;
 /**
  * 打开自己的喇叭
  *
@@ -501,9 +499,6 @@ typedef NS_ENUM(NSInteger, GSFetchLoginInformationResult)
  * @discussion 请勿频繁调用，蓝牙模式下无效 for 3.7.9
  */
 - (BOOL)inactivateSpeaker;
-
-
-
 /**
  喇叭静音
 
@@ -512,7 +507,6 @@ typedef NS_ENUM(NSInteger, GSFetchLoginInformationResult)
  @return 操作是否成功
  */
 - (BOOL)muteSpeaker:(BOOL)bMute;
-
 // 检查喇叭是否静音
 - (BOOL)isSpeakerMute;
 /**
@@ -523,6 +517,8 @@ typedef NS_ENUM(NSInteger, GSFetchLoginInformationResult)
  */
 - (BOOL)muteMicrophone:(BOOL)bMute;
 
+// 检查麦克风是否静音
+- (BOOL)isMicrophoneMute;
 
 // 获取麦克风音量
 - (long long)microphoneVolume;
@@ -536,8 +532,7 @@ typedef NS_ENUM(NSInteger, GSFetchLoginInformationResult)
 // 设置喇叭音量
 - (BOOL)setSpeakerVolume:(long long)vol;
 
-#pragma mark -
-#pragma mark Video Methods
+#pragma mark - Video Methods
 /**
  @method openCamera:orientation:
  @abstract openCamera only
@@ -562,19 +557,14 @@ typedef NS_ENUM(NSInteger, GSFetchLoginInformationResult)
 
 /**
  * 关闭自己的摄像头
- *
  * @return 操作是否成功
- *
  */
 - (BOOL)inactivateCamera;
-
 
 /**
  *  前后互切摄像头
  */
 - (void)rotateCamera;
-
-
 
 /**
  * 接受指定的摄像头视频流
@@ -1327,7 +1317,6 @@ typedef NS_ENUM(NSInteger, GSFetchLoginInformationResult)
 
 @property (nonatomic, assign) BOOL isSpeakerDefaultClosed; //是否配置关闭扬声器，yes 是关闭
 
-@property (nonatomic, assign) BOOL isCanCaptureCameraOut;
 
 /**
  默认的打赏设置数值(在不设置打赏数目时，自动设置此值)
@@ -1348,6 +1337,11 @@ typedef NS_ENUM(NSInteger, GSFetchLoginInformationResult)
  */
 @property (nonatomic, assign) BOOL isBriefIntroduce;
 
+/**
+ *  采集视频的的AVCaptureSession
+ */
+@property (nullable, nonatomic, strong) AVCaptureSession *avsession;
+@property (nonatomic, assign) BOOL isCanCaptureCameraOut;
 /**
  音频路由改变时，默认选择的输出端口
  0表示听筒和蓝牙设备  1表示外放扬声器

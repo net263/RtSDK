@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'RtSDK.framework'
-  spec.vendored_libraries = 'libfdk-aac.a'
+  s.ios.vendored_library = 'libfdk-aac.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   # s.resource_bundles = {
   #   'RtSDK' => ['RtSDK/Assets/*.png']

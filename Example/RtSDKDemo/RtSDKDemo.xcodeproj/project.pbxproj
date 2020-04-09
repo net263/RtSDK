@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA7A1E7521463D23155684F /* libPods-RtSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89972A24D1194C9CC919A324 /* libPods-RtSDKDemo.a */; };
 		F35144A9243F0FBA00CF6763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35144A8243F0FBA00CF6763 /* AppDelegate.m */; };
 		F35144AC243F0FBA00CF6763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35144AB243F0FBA00CF6763 /* ViewController.m */; };
 		F35144AF243F0FBA00CF6763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35144AD243F0FBA00CF6763 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA7A1E7521463D23155684F /* libPods-RtSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
