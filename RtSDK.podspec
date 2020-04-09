@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RtSDK'
-  s.version          = '0.1.2'
+  s.version          = '1.0.0'
   s.summary          = 'net263 RtSDK.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  net 263 RtSDK framework
                        DESC
 
   s.homepage         = 'https://github.com/net263/RtSDK'
@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/net263/RtSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = 'RtSDK.framework','GSCommonKit.framework','GPUImage.framework','GSDocKit.framework'
+  s.vendored_frameworks = 'RtSDK.framework'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   # s.resource_bundles = {
   #   'RtSDK' => ['RtSDK/Assets/*.png']
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'GLKit'
-  s.libraries = 'z', 'c++','iconv','icucore'
+  s.dependency 'GSBaseKit'
+  # s.libraries = 'z', 'c++','iconv','icucore'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

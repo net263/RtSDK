@@ -1,6 +1,0 @@
-framework module GSDocKit {
-  umbrella header "GSDocKit.h"
-
-  export *
-  module * { export * }
-}
