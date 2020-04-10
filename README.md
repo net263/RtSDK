@@ -25,6 +25,9 @@ RtSDK 现已可通过 [CocoaPods](https://cocoapods.org) 集成.
 
 ```c
 pod repo update
+
+//如果你更新之后仍然无法search到最新的sdk版本，请尝试
+rm ~/Library/Caches/CocoaPods/search_index.json
 ```
 
 然后进行修改`Podfile`
