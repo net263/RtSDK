@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RtSDK'
-  s.version          = '1.0.2'
+  s.version          = '3.7.9'
   s.summary          = 'net263 RtSDK.'
 
   s.description      = <<-DESC
@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'RtSDK.framework'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  s.resource = 'Resources/RtSDK.bundle'
   # s.resource_bundles = {
   #   'RtSDK' => ['RtSDK/Assets/*.png']
   # }
