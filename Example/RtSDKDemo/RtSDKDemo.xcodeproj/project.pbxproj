@@ -101,7 +101,6 @@
 		F3514706243F283000CF6763 /* GSQaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35146F1243F283000CF6763 /* GSQaViewController.m */; };
 		F3514707243F283000CF6763 /* GSMutiVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35146F4243F283000CF6763 /* GSMutiVideoViewController.m */; };
 		F3514708243F283000CF6763 /* GSSingleVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35146F6243F283000CF6763 /* GSSingleVideoViewController.m */; };
-		F351470A243F287A00CF6763 /* RtSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3514709243F287A00CF6763 /* RtSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -249,7 +248,6 @@
 		F35146F4243F283000CF6763 /* GSMutiVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMutiVideoViewController.m; sourceTree = "<group>"; };
 		F35146F5243F283000CF6763 /* GSSingleVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSingleVideoViewController.h; sourceTree = "<group>"; };
 		F35146F6243F283000CF6763 /* GSSingleVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSingleVideoViewController.m; sourceTree = "<group>"; };
-		F3514709243F287A00CF6763 /* RtSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RtSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,7 +304,6 @@
 		F35144A6243F0FBA00CF6763 /* RtSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F3514709243F287A00CF6763 /* RtSDK.bundle */,
 				F35146CB243F282F00CF6763 /* ThirdParty */,
 				F35146CE243F282F00CF6763 /* ViewControllers */,
 				F3514595243F226000CF6763 /* Views */,
@@ -700,7 +697,6 @@
 				F351462A243F226100CF6763 /* radio_unavailable@2x.png in Resources */,
 				F3514634243F226100CF6763 /* qa_open@2x.png in Resources */,
 				F3514621243F226100CF6763 /* correct_hant@3x.png in Resources */,
-				F351470A243F287A00CF6763 /* RtSDK.bundle in Resources */,
 				F351462E243F226100CF6763 /* vote_text@2x.png in Resources */,
 				F3514702243F283000CF6763 /* EnumDic.plist in Resources */,
 				F3514624243F226100CF6763 /* multiple_unavailable@2x.png in Resources */,

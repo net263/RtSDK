@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RtSDK'
-  s.version          = '3.7.9'
+  s.version          = '3.7.10'
   s.summary          = 'net263 RtSDK.'
 
   s.description      = <<-DESC
