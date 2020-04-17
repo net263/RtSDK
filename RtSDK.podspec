@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'GLKit'
-  s.dependency 'GSBaseKit'
+  s.dependency 'GSBaseKit','~> 3.7.10'
   # s.libraries = 'z', 'c++','iconv','icucore'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
