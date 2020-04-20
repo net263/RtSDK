@@ -24,7 +24,7 @@
     [super watch:sender];
     //param
     GSConnectInfo *params = [GSConnectInfo new];
-#if 1
+#if 0
     params.domain = [self paramInField:MO_DOMAIN];
     params.roomNumber = [self paramInField:MO_ROOMID];
     params.loginName = [self paramInField:MO_LOGIN_NAME];
@@ -36,10 +36,10 @@
     //allgf.gensee.com/training/site/s/04738047
     //192.168.1.40/webcast/site/entry/join-3c9508b05cbe4085aca3e21d106b6eed
     //213.gensee.com/training/site/r/59271145
-    params.domain = @"allgf.gensee.com";
-    params.roomNumber = @"04738047";
+    params.domain = @"213.gensee.com";
+    params.roomNumber = @"59271145";
     params.nickName = @"Paul@EM3";
-    params.watchPassword = @"908424";
+    params.watchPassword = @"333333";
 #endif
     params.serviceType = self.serviceType.selectedSegmentIndex==0?GSBroadcastServiceTypeWebcast:GSBroadcastServiceTypeTraining;
     params.thirdToken = [self paramInField:MO_THIRD_KEY];
