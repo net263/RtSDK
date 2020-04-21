@@ -24,7 +24,7 @@
     [super watch:sender];
     //param
     GSConnectInfo *params = [GSConnectInfo new];
-#if 0
+#if 1
     params.domain = [self paramInField:MO_DOMAIN];
     params.roomNumber = [self paramInField:MO_ROOMID];
     params.loginName = [self paramInField:MO_LOGIN_NAME];
